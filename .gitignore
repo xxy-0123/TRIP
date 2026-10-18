@@ -1,0 +1,29 @@
+# Python and environment files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.env
+.env.*
+
+# Local data and model outputs
+dataset/
+result/
+results/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.log
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
